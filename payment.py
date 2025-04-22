@@ -23,6 +23,7 @@ from utils import (
     CRYPTOPAY_API_TOKEN, send_message_with_retry, format_currency, ADMIN_ID,
     LANGUAGES, load_all_data, BASKET_TIMEOUT,
     get_db_connection, MEDIA_DIR # Import helper and MEDIA_DIR
+    clear_expired_basket
 )
 # Import user module to call functions like clear_expired_basket, validate_discount_code
 import user
